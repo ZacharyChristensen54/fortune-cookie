@@ -31,7 +31,8 @@ class MainHandler(webapp2.RequestHandler):
         header = "<h1>Fortune Cookie</h1>"
         
         fortune = "<strong>" + getRandomFortune() + "</strong>"
-        fortune_sentence = "Your fortune is: " + fortunefortune_paragrpah = "<p>" + fortune_sentence + "</p>"
+        fortune_sentence = "Your fortune is: " + fortune
+        fortune_paragrpah = "<p>" + fortune_sentence + "</p>"
 
         lucky_number = random.randint(1,100)
         number_sentence = "Your lucky number is: " + str(lucky_number)
