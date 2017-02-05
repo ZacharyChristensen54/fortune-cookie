@@ -32,7 +32,7 @@ class MainHandler(webapp2.RequestHandler):
         
         fortune = "<strong>" + getRandomFortune() + "</strong>"
         fortune_sentence = "Your fortune is: " + fortune
-        fortune_paragrpah = "<p>" + fortune_sentence + "</p>"
+        fortune_paragraph = "<p>" + fortune_sentence + "</p>"
 
         lucky_number = random.randint(1,100)
         number_sentence = "Your lucky number is: " + str(lucky_number)
